@@ -28,7 +28,7 @@ template<typename T> void Stack<T>::push(const T& ob) {
 template<typename T> void Stack<T>::pop() {
 	if (isEmpty()) throw "Stiva goala\n";
 	v.pop_back();
-}
+} %%
 
 int main() {
 	Stack <int> st;
